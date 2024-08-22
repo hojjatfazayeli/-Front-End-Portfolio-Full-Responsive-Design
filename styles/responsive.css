@@ -1,0 +1,185 @@
+@media  screen and (max-width:1200px) {
+    .home__picture{
+        width: 40rem;
+        height: 40rem;
+    }
+    .home__job{
+        font-size: 3rem;
+    }
+    .service
+    {
+        padding: 5rem 3rem;;
+    }
+    .pricing-feature-list__item
+    {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media  screen and (max-width:992px) {
+    .home .row{
+        flex-wrap: nowrap;
+    }
+    .nav__logo{
+        font-size: 4.5rem;
+    }
+    .menu__link{
+        font-size: 1.3rem;
+    }
+    .home__picture{
+        width: 30rem;
+        height: 30rem;
+    }
+    .home__job{
+        font-size: 2.8rem;
+    }
+    .home{
+        height: 60rem;
+    }
+    .aboutus__wrapper{
+        flex-direction: column;
+    }
+    .aboutus__content{
+        padding-right: 3rem;
+        margin-bottom: 3rem;
+    }
+    .aboutus__description
+    {
+         margin-bottom: 5rem;
+    }
+    .resume-list__text
+    {
+        font-size: 1.5rem;
+    }
+    .portfolio-menu-list__item
+    {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media  screen and (max-width:768px) {
+    .nav__toggle-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        background-color: var(--section-bg-color);
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        height:0;
+        overflow: hidden;
+        transition: all 200ms ease-in;
+    }
+    .menu__item
+    {
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+    .menu--open
+    {
+        height: 33rem;
+    }
+    .cover--show
+    {
+        display: block;
+    }
+    .home .row{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home__content
+    {
+        margin-top: 4rem;
+    }
+    .home__caption{
+        font-size: 1.3rem;
+    }
+    .home__picture{
+
+        margin: 0 auto;
+        width: 35rem;
+        height: 35rem;
+    }
+    .home__link-wrapper
+    {
+        justify-content: center;
+    }
+    .home{
+        background-image: none;
+    }
+    .resume-list::before,
+    .resume-list__item::before
+    {
+        display: none;
+    }
+    .resume-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .resume-list__item
+    {
+        background-color: var(--primary-color);
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 0.5rem 2rem;
+        margin-right: 1rem;
+    }
+    .resume-list__icon{
+        display: none;
+    }
+    .pricing-width-toggle
+    {
+        padding: 0 ;
+    }
+    .footer-wrapper
+    {
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width:576px) {
+    .contactus__location
+    {
+        display: none;
+    }
+    .contactus__form
+    {
+        left: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .home__job{
+        font-size: 3rem;
+    }
+    .home__links-wrapper,
+    .aboutus__links-wrapper{
+        gap: 2rem;
+        width: 100%;
+    }
+    .home__link,
+    .aboutus__link{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home__picture{
+
+        margin: 0 auto;
+        width: 30rem;
+        height: 30rem;
+    }
+
+}
